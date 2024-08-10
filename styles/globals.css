@@ -5,7 +5,88 @@
 
 /* styles/globals.css */
 body {
-    background-color: #1a202c; /* Dark gray color */
-    color: #e2e8f0; /* Light gray color for text */
+    background-color: #1a1d24; 
+    color: #e2e8f0;
+    font-family: 'Ubuntu', sans-serif; /* Use the imported Ubuntu Font */
+
   }
   
+  .bg-dark{
+    background-color: #40444c;
+  }
+  
+
+  .main-logo-wrapper{
+    margin-bottom: -68px;
+  }
+
+  .main-logo-wrapper img{
+    width: 65px;
+    height: auto;
+  }
+  
+
+  /* styles/globals.css or another CSS file */
+
+  .blog-card{
+  background: black;
+
+  }
+
+.card-img {
+  position: relative;
+  width: 100%;
+  height: 10rem; /* Adjust height as needed */
+  overflow: hidden;
+}
+
+.card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: .4s;
+  opacity: .4;
+}
+
+
+
+.blog-card:hover .card-img img{
+  opacity: 1;
+  transition: .4s;
+}
+
+.card-img .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to top, #1f2937, rgba(0, 0, 0, 0));
+  pointer-events: none; /* Allows clicking through the overlay */
+}
+
+.blog-meta{
+  box-shadow: 0 -70px 60px 10px #000000;
+  transition: .3s;
+
+}
+
+.blog-card:hover{
+  box-shadow: 5px 3px 10px 5px #0000007d;
+  transition: .3s;
+}
+
+  .blog-card:hover .blog-meta{
+    box-shadow: none;
+    transition: .3s;
+  }
+
+
+
+.from-gray {
+  --tw-gradient-from: #1f2937 var(--tw-gradient-from-position);
+ }
+
+.blog-card .card-content{
+  margin-top: -100px;
+}

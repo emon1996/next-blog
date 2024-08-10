@@ -19,7 +19,7 @@ export default function BlogPost({ params }) {
     <div className="bg-gray-900 text-white min-h-screen">
       <Header />
       <main className="container mx-auto p-4">
-        <article className="max-w-3xl mx-auto">
+        <article className="max-w-lg mx-auto">
           {blog.image && (
             <img 
               src={blog.image} 

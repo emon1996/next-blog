@@ -41,7 +41,7 @@ export default function Signup() {
                 required
               />
             </div>
-            <button type="submit" className="w-full bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">
+            <button type="submit" className="w-full bg-gray-900 text-white px-4 py-2 rounded-md hover:bg-blue-600">
               Sign Up
             </button>
           </form>

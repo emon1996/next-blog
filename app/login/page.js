@@ -30,7 +30,7 @@ export default function LoginPage() {
                 required
               />
             </div>
-            <button type="submit" className="w-full bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Login</button>
+            <button type="submit" className="w-full bg-gray-900 text-white px-4 py-2 rounded-md hover:bg-blue-600">Login</button>
           </form>
         </div>
       </main>
