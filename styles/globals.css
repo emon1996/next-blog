@@ -48,6 +48,9 @@ body {
   opacity: .4;
 }
 
+.blog-card:first-child img{
+  opacity: 1;
+}
 
 
 .blog-card:hover .card-img img{
